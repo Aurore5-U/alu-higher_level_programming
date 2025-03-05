@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-
 """
 This module defines a Square class that represents a square.
 
 The Square class provides methods to calculate the area of the square
 and print it with a specified position.
 """
+
 
 class Square:
     """Defines a square."""
@@ -60,6 +60,8 @@ class Square:
         if self.__size == 0:
             return ""
         result = "\n" * self.__position[1]
-        result += "\n".join(" " * self.__position[0] + "#" * self.__size
-                             for _ in range(self.__size))
+        result += "\n".join(
+            " " * self.__position[0] + "#" * self.__size
+            for _ in range(self.__size)
+        )
         return result
