@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 '''This file creates a class that inherits from List builtin functions '''
 
 
